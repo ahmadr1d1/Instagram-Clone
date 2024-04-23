@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Instagram Clone</string>
+
+    <!--    TODO: Others     -->
+    <string name="username">Username</string>
+    <string name="comingsoon">Coming Soon</string>
+    <string name="captionPost">Write a caption</string>
+    <string name="cancel">Cancel</string>
+    <string name="searchUser">Search User</string>
+    <string name="tvLoadDialog">Please wait! Your file is being processed</string>
+    <string name="status">Status</string>
+    <string name="follow">Follow</string>
+    <string name="like">Like</string>
+
+    <!--    TODO: Image Description     -->
+    <string name="logoIg">Instagram Logo</string>
+    <string name="logoMeta">Meta Logo</string>
+    <string name="imgSave">Image Save</string>
+    <string name="imgLove">Image Love</string>
+    <string name="imgQR">Image Qr Code</string>
+    <string name="imgSend">Image Airplane Send</string>
+    <string name="imgUnfollow">Image Unfollow</string>
+    <string name="imgAbout">Image About Account</string>
+    <string name="imgReport">Image Report Account</string>
+    <string name="imgSettings">Image Settings</string>
+    <string name="imgActivity">Image Activity Users</string>
+    <string name="imgArchive">Image Archive</string>
+    <string name="imgClose">Image Close Friends</string>
+    <string name="imgFlipside">Image Flipside</string>
+    <string name="imgLogout">Image Logout</string>
+    <string name="imgAdd">Image Add Post</string>
+    <string name="imgAddReels">Image Add Reels</string>
+    <string name="imgSearch">Image Search</string>
+    <string name="imgComment">Image Comments</string>
+    <string name="imgMore">Image More</string>
+    <string name="imgCamera">Image Camera</string>
+
+    <!--    TODO: Splash Screen     -->
+    <string name="textBottom">From</string>
+
+    <!--    TODO: SignupActivity - LoginActivity    -->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="haveAccount">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="noAccount">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="blank">PLease fill all required form</string>
+    <string name="success">Successfully Register your Account</string>
+    <string name="update">Update Profile</string>
+    <string name="loginIncorrect">Email or Password incorrect</string>
+
+    <!--    TODO: HomeActivity    -->
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_post">Add</string>
+    <string name="title_reels">Reels</string>
+    <string name="title_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    TODO: FragmentProfile    -->
+    <string name="btnEditProfile">Edit Profile</string>
+    <string name="btnShareProfile">Share Profile</string>
+    <string name="nameProfile">Your Name</string>
+    <string name="bioProfile">Your Bio</string>
+    <string name="tabLayout">This is Tab Layout</string>
+    <string name="viewPager">This is View Pager</string>
+    <string name="postProfile">posts</string>
+    <string name="followers">followers</string>
+    <string name="following">following</string>
+    <string name="countPost">15</string>
+    <string name="countFollowers">258</string>
+    <string name="countFollowing">1071</string>
+
+    <!--    TODO: FragmentPost    -->
+    <string name="addPost">Add Post</string>
+    <string name="addReels">Add Reels</string>
+    <string name="postImage">Post Image</string>
+
+    <!--    TODO: FragmentReels    -->
+    <string name="reelsCaption">This is My Reels Video </string>
+
+    <!--    TODO: Activity Message    -->
+    <string name="searchbar_hint">Search</string>
+    <string name="message">Messages</string>
+
+    <!--    TODO: Activity AddPost    -->
+    <string name="sharePost">Share Post</string>
+    <string name="post">Post</string>
+    <string name="warnPost">Your Post May be appear in post profile</string>
+
+    <!--    TODO: Activity AddReels    -->
+    <string name="selectReels">Select Reels</string>
+    <string name="shareReels">Share Reels</string>
+    <string name="imageReels">Image Reels</string>
+    <string name="warnReeels">Your Reels May be appear in reels profile</string>
+
+    <!--    TODO: RvPost    -->
+    <string name="bookmarks">Bookmark Picture</string>
+    <string name="countLikes">45 likes</string>
+    <string name="caption">caption</string>
+    <string name="time">Time</string>
+
+    <!--    TODO: Reel Design    -->
+    <string name="countLikesReels">12k</string>
+    <string name="countComment">867</string>
+    <string name="countSend">6k</string>
+
+    <!--    TODO: MoreFragment    -->
+    <string name="save">Save</string>
+    <string name="qr_code">QR Code</string>
+    <string name="send">Send</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="about_acount">About this account</string>
+    <string name="report_acount">Report this account</string>
+    <string name="settings">Settings and Privacy</string>
+    <string name="activity">Your Activity</string>
+    <string name="archive">Archive</string>
+    <string name="saved">Saved</string>
+    <string name="closeFrirends">Close Friends</string>
+    <string name="flipside">Flipside</string>
+    <string name="logout">Logout</string>
+
+</resources>

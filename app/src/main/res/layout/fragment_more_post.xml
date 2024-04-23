@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.post.PostFragment">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="32dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center"
+        android:background="?android:attr/colorPrimary" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgSave"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/circle_shape"
+            android:padding="13dp"
+            android:layout_marginStart="75dp"
+            android:src="@drawable/save"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:tint="?android:attr/colorPrimary"
+            android:contentDescription="@string/imgSave"/>
+
+        <TextView
+            android:id="@+id/tvSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/imgSave"
+            app:layout_constraintStart_toStartOf="@+id/imgSave"
+            app:layout_constraintTop_toBottomOf="@id/imgSave" />
+
+        <ImageView
+            android:id="@+id/imgQRCode"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="75dp"
+            android:padding="12dp"
+            android:src="@drawable/qr_code"
+            android:background="@drawable/circle_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:tint="?android:attr/colorPrimary"
+            android:contentDescription="@string/imgQR"/>
+
+        <TextView
+            android:id="@+id/tvQRCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qr_code"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/imgQRCode"
+            app:layout_constraintStart_toStartOf="@+id/imgQRCode"
+            app:layout_constraintTop_toBottomOf="@id/imgQRCode" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imgSend"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/send"
+            android:padding="5dp"
+            app:tint="?android:attr/colorPrimary"
+            android:contentDescription="@string/imgSend" />
+
+        <TextView
+            android:id="@+id/tvSend"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/send"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="@color/red"/>
+
+    <LinearLayout
+        android:id="@+id/unfollow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imgUnfollow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/unfollow"
+            android:padding="5dp"
+            app:tint="?android:attr/colorPrimary"
+            android:contentDescription="@string/imgUnfollow"/>
+
+        <TextView
+            android:id="@+id/tvUnfollow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/unfollow"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imgAbout"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/profile"
+            android:padding="5dp"
+            app:tint="?android:attr/colorPrimary"
+            android:contentDescription="@string/imgAbout"/>
+
+        <TextView
+            android:id="@+id/tvAbout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/about_acount"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imgReport"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/report"
+            android:padding="5dp"
+            android:contentDescription="@string/imgReport"/>
+
+        <TextView
+            android:id="@+id/tvReport"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/report_acount"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
